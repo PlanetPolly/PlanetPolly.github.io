@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Me
-subtitle: There's no one I'd rather be than me.
+title: About Me
+subtitle: Love what you do
 ---
 
 Hello, I’m Lei. 
 
-> "I'm bad, and that's good. I will never be good, and that's not bad. There's no one I'd rather be than me."-- *Wreck-It Ralph*
-
+> "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it." - Steve Jobs
 
 
 
