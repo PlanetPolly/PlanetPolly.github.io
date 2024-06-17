@@ -4,17 +4,24 @@ title: Research
 subtitle: That's not bad!
 ---
 
-## Research Interests 
+## Project Experience
 
-I plan to delete this page. Well, keep it for a moment.
-
-**Artificial photosynthesis, Energy Related Nano Materials, Chemistry of Surface and Interface**
-
-## Experience
 *I have conducted research in various fields including biosensors, organic total synthesis, electrocatalysis and interface science. My variety of research experiences have given me a rigorous intuition about combining knowledge from different subfields. This intuition helps me keep an open mind when I encounter problems.*
 
-*Jan. 2019 — present* <br>
-**Graduate student** at **Willard Henry Dow Laboratory** , [Umich](http://umich.edu/)<br>
+*Sept. 2020 — Dec. 2023*
+
+**Graduate student** at **Nature Science College**, UT<br>*Worked with Dr. He Zhang) on Spectro-electrochemical study on Hydrogen Evolution Reaction (HER)*. 
+
+![](img/3.png)
+
+* Utilized attenuated total reflection surface-enhanced infrared absorption spectroscopy (ATR-SEIRAS) to identify the hydrogen bond network at the electrode-electrolyte interface
+* Conducted precise measurements of HER kinetics and mass transport in the DMSO-water cosolvent system using ultra-microelectrodes. 
+* Revealed disruption of the interfacial H-bond network by H-bond competitor has an additional non-trivial impact on the HER kinetics besides mass transport and reaction sites. 
+
+
+
+*Jan. 2019 — July 2020* <br>
+**Graduate student** at **Willard Henry Dow Laboratory** , [UMICH](http://umich.edu/)<br>
 *Mentored by Prof. [Charles McCrory](https://scholar.google.com/citations?hl=zh-CN&user=gFH5HogAAAAJ) on Reductive Desorption of Mixed Self-assembled monolayer*.
 
 ![\img\msam.png](img/msam.png)
@@ -23,7 +30,7 @@ I plan to delete this page. Well, keep it for a moment.
 * X-ray photoelectron spectroscopy (XPS) was used to investigate the changing extent of Cl-terminated thiol before and after reductive desorption.
 * Cl-terminated thiol shows poor solubility in ethanol, hard to form mixed SAMs with decanethiol in ethanol.
 * A phase separation occurred in mixed SAMs prepared in chloroform. 
-* For SAMs prepared in DCM, it might form an evenly blended phase when χ=0.5.
+* For SAMs prepared in DCM, it might form an evenly blended phase when the molar ratio of Cl-thiol is 0.5.
 
 
 *July 2017 — Jan. 2018* <br>
@@ -31,6 +38,13 @@ I plan to delete this page. Well, keep it for a moment.
 *Mentored by Prof. [Hong Yang](https://scholar.google.com/citations?hl=zh-CN&user=WPntzc4AAAAJ) on Oxygen Evolution Reaction and the Electrochemical Activity Descriptors*.<br>
 
 <img src="https://cdn.britannica.com/30/158530-050-3BB8C4C8/radii-coordination-number-metals-atomic.jpg?raw=true" width="500px">
+
+* Fabricated an OER catalyst with low overpotential and improved stability in acidic conditions, using lanthanide doping for lattice manipulation. 
+* Proposed the relation between the OER activity and the atomic numbers of lanthanides. 
+
+
+
+
 
 *Nov. 2016 — Present* <br>
 **Undergraduate Researcher** at **College of Material engineering** , [SJTU](http://en.sjtu.edu.cn/)<br>
@@ -40,24 +54,19 @@ I plan to delete this page. Well, keep it for a moment.
 ![\img\2d.png](img/2d)
 *The TEM images of 2D metal samples obtained by solvothermal methods, (a)(b)PdFe (1:18); (c)(d) PtCo (1:9); (e) PtSn (1:9); (f)PdSn (1:9); (g) PtV (1:9); (h) PdCo (1:9)*
 
-
+* Synthesized 2D nanostructures comprising platinum group and iron group metals utilizing tungsten hexacarbonyl (W(CO)6) as the reducing agent in the solvent ethylene glycol
+* Proposed the growing mechanism: Platinum catalyzes the ethylene glycol reduction to form a net-like polymer and induces the lateral growing of metal. 
+* Obtained superior MOR activity compared to conventional platinum catalysts: the incorporation of iron group metals into the platinum structure increased the surface area and improved the adsorption capacity for active intermediates. 
 
 *July 2015 — Oct. 2016*<br>
 **Undergraduate Researcher** at **College of Chemistry** <br>
 *Mentored by Prof. [Shuyu Zhang]() on Semi-Pinacol Rearrangement*.
 
-
-
-
-
-*Jan. 2015 — July. 2015*<br>
-**Undergraduate Researcher** at **College of Chemistry**<br>
-*Mentored by Prof. [Xuefeng Qian]() on Molybdenum Disulfide and Its Application in HER*.
-
-
-
-
+* Trained in the total synthesis of spiro compounds using the semi-Pinacol rearrangement reaction. 
 
 *Apr. 2015 — Mar. 2016*<br>
 **Member of PRP Program** at **College of Chemistry**<br>
 *Collaborate on Interdisciplinary Research Project of  Fluorescence Biochemical Probe.*
+
+* Prepared a fluorescent probe for structural distinction of gluconate. 
+* Proposed a new fulorescence-quenching model explaining exceptions in sodium gluconate recognition. 

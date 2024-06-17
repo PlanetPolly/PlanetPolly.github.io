@@ -3,28 +3,23 @@ layout: page
 title: Past
 subtitle: It's not the voice determine the story, it's the ear. 
 ---
-求学，工作，学习更多技能，提高自身素质
+"Develop a passion for learning. If you do, you will never cease to grow."\- Anthony J. D'Angelo
 
 
 
-**Trainee Journalist at the *Global Science* magazine**
+**Trainee Journalist at the *Global Science* magazine** (The Chinese Edition of *Scientific American*)
 
-* aim to write a great post but I found science and scientific popularization nowadays are in a strange rhythm
-* play with the internet flow is always so dangerous and boring
+* gather information for stories, including conducting interviews, attending events, and verifying facts
+* write news articles that are concise, accurate, and engaging
+* [Sample](https://planetpolly.github.io/2019-01-27-Fermat-s-last-theorem/)
 
-**Teaching assistant**
-* Job, the world runs centering the students
-* I start to consider my future jobs
+**Teaching Assistant / Research Assistant** 
 
-**Member of Shupin student association**
-* Loyalty
-* Historical
-* Take from society and return to society
-
-**Organizer of the *"Surpass Union"* Program**
-* Course project, persevered over one year
-* helped juniors improve their academic performance and provided guides on coursework and applications
-* ended as the course finished
+* As a part of my graduate life
+* prepare course materials, such as handouts, quizzes, and exams
+* lead smaller groups of students in discussions or lab sessions to reinforce concepts introduced in lectures
+* review scholarly articles and research papers to inform the direction of the research project
+* design and carry out experiments or studies in a laboratory or field setting
 
 
 
