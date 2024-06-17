@@ -1,12 +1,8 @@
 ---
 layout: page
 title: Past
-subtitle: It's not the voice determine the story, it's the ear. 
+subtitle: Develop a passion for learning. If you do, you will never cease to grow.
 ---
-"Develop a passion for learning. If you do, you will never cease to grow."\- Anthony J. D'Angelo
-
-
-
 **Trainee Journalist at the *Global Science* magazine** (The Chinese Edition of *Scientific American*)
 
 * gather information for stories, including conducting interviews, attending events, and verifying facts

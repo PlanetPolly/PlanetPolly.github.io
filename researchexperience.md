@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-subtitle: That's not bad!
+subtitle: The only source of knowledge is experience.
 ---
 
 ## Project Experience
