@@ -1,14 +1,14 @@
 ---
 layout: page
 title: About Me
-subtitle: Love what you do
+subtitle: 除此之外，无事可做
 ---
 
 Hello, I’m Lei. 
 
-> "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it." - Steve Jobs
+> 为了让世界变得更有趣。
 
-
+一个学了十多年化学，才发现自己喜欢的是其中数学的留学生。十分重视一个工作中体现的美感，不多评价仅仅看起来精致的物件。
 
 
 

@@ -23,11 +23,10 @@ description: 记忆 足迹
 
 # List of links in the navigation bar
 navbar-links:
-  我: "aboutme"
-  求学: "researchexperience"
-  工作: "position"
+  关于: "aboutme"
+  学术: "researchexperience"
+  TOOLS: "tools"
   信: "lastletter"
-  其他: "Miscellaneous"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -58,7 +57,7 @@ footer-link-col: "#404040"
 # footer-img: "/img/bgimage.png"
 # page-img: "/img/bgimage.png"
 
-page-img: "img/bgimage1.png
+page-img: "/img/bgimage1.png
 
 
 # --- Footer options --- #

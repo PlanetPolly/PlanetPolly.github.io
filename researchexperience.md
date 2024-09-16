@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Research
-subtitle: The only source of knowledge is experience.
+subtitle: 做过，所以略知一二
 ---
+
 
 ## Project Experience
 
@@ -10,7 +11,8 @@ subtitle: The only source of knowledge is experience.
 
 *Sept. 2020 — Dec. 2023*
 
-**Graduate student** at **Nature Science College**, UT<br>*Worked with Dr. He Zhang) on Spectro-electrochemical study on Hydrogen Evolution Reaction (HER)*. 
+**Graduate student** at **Nature Science College**, UT<br>
+on Spectro-electrochemical study on Hydrogen Evolution Reaction (HER)*. 
 
 ![](img/3.png)
 
@@ -70,3 +72,20 @@ subtitle: The only source of knowledge is experience.
 
 * Prepared a fluorescent probe for structural distinction of gluconate. 
 * Proposed a new fulorescence-quenching model explaining exceptions in sodium gluconate recognition. 
+
+
+### Other
+
+**Trainee Journalist at the *Global Science* magazine** (The Chinese Edition of *Scientific American*)
+
+* gather information for stories, including conducting interviews, attending events, and verifying facts
+* write news articles that are concise, accurate, and engaging
+* [Sample](https://planetpolly.github.io/2019-01-27-Fermat-s-last-theorem/)
+
+**Teaching Assistant / Research Assistant** 
+
+* As a part of my graduate life
+* prepare course materials, such as handouts, quizzes, and exams
+* lead smaller groups of students in discussions or lab sessions to reinforce concepts introduced in lectures
+* review scholarly articles and research papers to inform the direction of the research project
+* design and carry out experiments or studies in a laboratory or field setting
