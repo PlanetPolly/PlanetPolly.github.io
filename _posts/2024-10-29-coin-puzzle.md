@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Flipping a coin
+title: Coin Puzzle 2
 tags: [Green-eyed Dragon]
+mathjax: true
 ---
 
 From the book 
