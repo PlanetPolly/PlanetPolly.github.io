@@ -23,3 +23,5 @@ Part (b):
 $$ E = \sum _{n=1} ^{\infty} \frac{2^{n-1}}{2^n} = n/2$$
 
 In this case, the expectation over infinity trails is far from the real experiment (not infinity). How much money would a person be willing to put up for the opportunity to play these N games? 
+
+Strange problem: won't show after deployment
