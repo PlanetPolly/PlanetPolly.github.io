@@ -7,7 +7,7 @@ mathjax: true
 
 You are driving down a one-way road and pass a strip of a large number, N, of hotels. These all have different rates, arranged randomly. You want to maximize your chance of choosing the cheapest hotel, but you can't return to one you've passed up. Assume that your only goal is to obtain the cheapest hotel (the second cheapest is of no more value to you than the most expensive). If your strategy is to proceed past a certain fraction, x, of the hotels and then pick the next one that is cheaper than all the ones you've seen so far, what should x be? What, then, is your probability of success? Assume that N is very large, and ignore terms in your answer that are of subleading order in N.
 
-In other words, if one is presented with a series of numbers in random order and N is very large, what is the probability of finding the minimum by skipping the first x and choosing the next number that is smaller than all the numbers considered?
+In other words, if there is a series of numbers in random order and N is very large, what is the probability of finding the minimum by skipping the first x and choosing the next number that is smaller than all the numbers considered?
 
 There are two possible outcomes:
 1. The minimum is not in the x
