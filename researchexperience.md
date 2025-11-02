@@ -1,15 +1,31 @@
 ---
 layout: page
 title: Research
-subtitle: 做过，所以略知一二
+subtitle: 略知一二
 ---
 
 
 ## Project Experience
 
-*I have conducted research in various fields including biosensors, organic total synthesis, electrocatalysis and interface science. My variety of research experiences have given me a rigorous intuition about combining knowledge from different subfields. This intuition helps me keep an open mind when I encounter problems.*
+*I have conducted research in various fields including lithium－ion battery, lead acid battery, biosensors, organic total synthesis, electrocatalysis and interface science. My variety of research experiences have given me a rigorous intuition about combining knowledge from different subfields. This intuition helps me keep an open mind when I encounter problems.*
 
-*Sept. 2020 — Dec. 2023*
+*July 2024 - present*
+* Failure Analysis Engineer
+* Advanced Electrochemical Engineer
+
+- DRT
+- tortuosity
+- SEM porosity
+- iron phosphide methods
+- ARC patents
+- random forest in material analysis
+- participate in LIMS projects
+- participate in construct a new lab
+- lead acid grid grain study
+
+
+
+*Sept. 2020 — Jan. 2024*
 
 **Graduate student** at **Nature Science College**, UT<br>
 on Spectro-electrochemical study on Hydrogen Evolution Reaction (HER)*. 
