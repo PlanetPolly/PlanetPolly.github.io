@@ -76,6 +76,10 @@ on Spectro-electrochemical study on Hydrogen Evolution Reaction (HER)*.
 
 ### Other
 
+* Failure Analysis Engineer
+* Advanced Electrochemical Engineer
+
+
 **Trainee Journalist at the *Global Science* magazine** (The Chinese Edition of *Scientific American*)
 
 * gather information for stories, including conducting interviews, attending events, and verifying facts
