@@ -1,67 +1,109 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Review a problem</title>
+    <title>Revisit a problem</title>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <style type="text/css">
-        p {
-        	text-indent:2em;
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            padding: 20px 40px; 
+            font-size: 13pt; 
+            color: #333;
+            max-width: 900px;
+            margin: auto;
         }
+        h3 { font-family: Cambria, serif; color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        p { margin-bottom: 1.2em; }
+        .math-block { background-color: #f9f9f9; padding: 10px; border-radius: 5px; overflow-x: auto; }
+        img { display: block; margin: 20px auto; max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; }
+        code { font-family: Consolas, monospace; background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; }
+        hr { border: 0; border-top: 1px solid #eee; margin: 30px 0; }
+        .highlight { font-weight: bold; color: #e67e22; }
     </style>
-  </head>
+</head>
 <body>
-<!-- Content goes here. The div must have an id of "content" -->
-<div id="content"><p>About the Question 2 in exam</p>
-<p><img src="https://i.imgur.com/kgGx8O9.png" alt="clipboard"></p>
-<p>This is a biophysics problem during my graduate course.</p>
-<p>It's interesting that a good application of the boltzmann distribution.</p>
-<p>While during the exam, I used the statistic model mixing the Binomial distribution and Boltzmann distribution. So the result I get is a little bit different from the standard answer but quite close.<br></p>
-<p>For every link, the probability that it's open is
-$$P_1=\frac{e^{-\beta \epsilon} }{1+e^{-\beta \epsilon}}=\frac{e^{-\beta \epsilon} (1- e^{-\beta \epsilon})}{(1+e^{-\beta \epsilon})(1- e^{-\beta \epsilon})}=\frac{e^{-\beta \epsilon}(1-e^{-\beta \epsilon}) }{1-e^{-2\beta \epsilon}}$$</p>
-<p>Since probability is small,
-$$P_1 \approx e^{-\beta \epsilon}$$
-at least one link open equals the first link is open, so the answer for the (a)question is P<sub>1</sub>, <strong>which is the same as what you giving in class</strong>
-<img src="https://i.imgur.com/49zanL0.png" width="800"></p>
-<p>If the chain is long enough, when the first link is open, the probability the second one is open is as same as the first one. Then calculated probability the only two links are open is
-$$P_2'=P_1^2(1-P_1)=(\frac{e^{-\beta \epsilon} }{1+e^{-\beta \epsilon}})^2(1-P_1)=\frac{e^{-2 \beta \epsilon} }{ (1 + e^{ -2 \beta \epsilon } + 2 e^{-\beta \epsilon})(1+e^{-\beta \epsilon}) } $$</p>
-<hr>
-<p>The probability calculate from <strong>your solution based on partition function Z</strong> is
-$$P_2=\frac{e^{-2\beta \epsilon}}{Z}=\frac{e^{-2\beta \epsilon}(1-e^{-\beta \epsilon}) (1+e^{-\beta \epsilon})}{1+e^{-\beta \epsilon}}=\frac{e^{-2\beta \epsilon}(1-e^{-2\beta \epsilon}) }{1+e^{-\beta \epsilon}}$$</p>
-<hr>
-<p><strong>The two P<sub>2</sub> is converging to the same limit when the energy is small</strong> <br>
-SO, I think my statistic model <strong>mixing the Binomial distribution and Boltzmann distribution</strong>, at some point, is valid.</p>
-<h3>Let's look at the question (b)</h3>
-<img src="https://i.imgur.com/EO1Hs4Q.png" width="800">
-<p>Below is my solution:<br>
-Based on the logic in (a), at least n links open
-$$P_1=\frac{e^{-\beta \epsilon} }{1+e^{-\beta \epsilon}}$$
-$$P_2=P_1^2$$
-$$P_3=P_1^3$$
-$$P_n=P_1^n$$</p>
-<hr>
-<p>Only n links open
-$$P_n'=P_1^n(1-P_1)$$</p>
-<hr>
-<p>The mean number of open links is
-$$&lt; n &gt;=\frac{\sum nP_1^n(1-P_1)}{\sum P_1^n(1-P_1)}=\frac{\sum nP_n}{\sum P_n}=\frac{\sum nP_1^n}{\sum P_1^n}$$
-The mean of &quot;at least&quot; is the same as the mean of origin<br>
-It's the math part and I calculate to get the next result
-$$&lt; n &gt;= \frac{1}{1-P_1}-\frac{nP_1^{n+1}}{1-P_1^n}$$</p>
-<p>Since the N is quite big,
-$$&lt; n &gt; \approx \frac{1}{1-P_1}=1+e^{-\beta \epsilon}$$</p>
-<p>this is my answer. <strong>And we change it the form</strong></p>
-<p>$$&lt; n &gt;= 1+e^{- \beta \epsilon}=\frac{(1+e^{-\beta \epsilon})(1-e^{-\beta \epsilon})}{1-e^{-\beta \epsilon}}=\frac{1-e^{-2\beta \epsilon} }{1-e^{-\beta \epsilon}} \approx \frac {1 }{1-e^{-\beta \epsilon}}=\frac{e^{\beta \epsilon} }{e^{\beta \epsilon}-1}$$</p>
-<p>if the energy is small enough
-$$e^{\beta \epsilon} \approx 1$$</p>
-<p>and we get the answer
-$$&lt; n &gt;=\frac{1 }{e^{\beta \epsilon}-1}$$</p>
-<hr>
-<p>Actually, I thick my answer is quite close to the answer based on Boltzmann distribution. But I use a math model mixing the Binomial distribution and Boltzmann distribution. This makes the difference. I just want verify that my logic is correct but on a weird way.</p>
-<hr>
+
+<div id="content">
+    <h3>Revisiting Question 2: A Biophysics Perspective on the Zipper Model</h3>
+    
+    <p>This is a biophysics problem from my graduate course. It serves as a fascinating application of the <strong>Boltzmann distribution</strong> to a 1D chain (Zipper Model).</p>
+    
+    <p><img src="https://i.imgur.com/kgGx8O9.png" alt="Exam Question 2 Overview"></p>
+
+    <p>During the exam, rather than following the standard partition function approach, I constructed a <strong>statistical model mixing Binomial and Boltzmann distributions</strong>. While the resulting expression was slightly different from the canonical solution, I found they converged remarkably well in the physical limit.</p>
+
+    <p>For every individual link, the probability that it is open is defined as:
+    <div class="math-block">
+    $$P_1=\frac{e^{-\beta \epsilon} }{1+e^{-\beta \epsilon}}=\frac{e^{-\beta \epsilon} (1- e^{-\beta \epsilon})}{(1+e^{-\beta \epsilon})(1- e^{-\beta \epsilon})}=\frac{e^{-\beta \epsilon}(1-e^{-\beta \epsilon}) }{1-e^{-2\beta \epsilon}}$$
+    </div>
+    </p>
+
+    <p>Since the probability $P_1$ is small in the high-energy limit ($\epsilon \gg kT$), we have:
+    $$P_1 \approx e^{-\beta \epsilon}$$
+    The condition that "at least one link is open" is equivalent to the first link being open. Thus, the answer for question (a) is $P_1$, <span class="highlight">which matches the solution provided in class.</span></p>
+    
+    <img src="https://i.imgur.com/49zanL0.png" width="800" alt="Derivation Part 1">
+
+    <p>If the chain is sufficiently long, the opening of subsequent links can be treated as independent trials. If the first link is open, the probability of the second link opening is identical to the first. Therefore, the calculated probability that <strong>only (exactly) two links</strong> are open is:
+    <div class="math-block">
+    $$P_2'=P_1^2(1-P_1)=\left(\frac{e^{-\beta \epsilon} }{1+e^{-\beta \epsilon}}\right)^2(1-P_1)=\frac{e^{-2 \beta \epsilon} }{ (1 + e^{ -2 \beta \epsilon } + 2 e^{-\beta \epsilon})(1+e^{-\beta \epsilon}) } $$
+    </div>
+    </p>
+
+    <hr>
+    <p>For comparison, the probability calculated from the <strong>canonical partition function $Z$</strong> is:
+    <div class="math-block">
+    $$P_2=\frac{e^{-2\beta \epsilon}}{Z}=\frac{e^{-2\beta \epsilon}(1-e^{-\beta \epsilon}) (1+e^{-\beta \epsilon})}{1+e^{-\beta \epsilon}}=\frac{e^{-2\beta \epsilon}(1-e^{-2\beta \epsilon}) }{1+e^{-\beta \epsilon}}$$
+    </div>
+    </p>
+    <hr>
+
+    <p><strong>Observation:</strong> The two expressions for $P_2$ converge to the same limit when the energy $\epsilon$ is small. This suggests that my statistical model, which blends Binomial and Boltzmann logic, is physically valid under these constraints.</p>
+
+    <h3>Part (b): Mean Number of Open Links</h3>
+    <img src="https://i.imgur.com/EO1Hs4Q.png" width="800" alt="Exam Question 2b">
+
+    <p>Based on the logic in (a), the probability that <em>at least</em> $n$ links are open is:
+    $$P_n = P_1^n$$
+    Consequently, the probability that <em>exactly</em> $n$ links are open is:
+    <div class="math-block">
+    $$P_n'=P_1^n(1-P_1)$$
+    </div>
+    </p>
+
+    <p>The mean number of open links $\langle n \rangle$ is then calculated as:
+    <div class="math-block">
+    $$\langle n \rangle = \frac{\sum nP_1^n(1-P_1)}{\sum P_1^n(1-P_1)} = \frac{\sum nP_1^n}{\sum P_1^n}$$
+    </div>
+    Through algebraic derivation for a large $N$, I obtained:
+    <div class="math-block">
+    $$\langle n \rangle = \frac{1}{1-P_1}-\frac{NP_1^{N+1}}{1-P_1^N} \approx \frac{1}{1-P_1} = 1+e^{-\beta \epsilon}$$
+    </div>
+    </p>
+
+    <p>Rearranging this form to compare with the standard result:
+    <div class="math-block">
+    $$\langle n \rangle = 1+e^{- \beta \epsilon}=\frac{(1+e^{-\beta \epsilon})(1-e^{-\beta \epsilon})}{1-e^{-\beta \epsilon}}=\frac{1-e^{-2\beta \epsilon} }{1-e^{-\beta \epsilon}} \approx \frac {1 }{1-e^{-\beta \epsilon}}=\frac{e^{\beta \epsilon} }{e^{\beta \epsilon}-1}$$
+    </div>
+    In the limit where $e^{\beta \epsilon} \approx 1$, we obtain the classical result:
+    <div class="math-block">
+    $$\langle n \rangle = \frac{1 }{e^{\beta \epsilon}-1}$$
+    </div>
+    </p>
+
+    <hr>
+    <p><strong>Conclusion:</strong> Although my approach was unconventional, I found that the result is remarkably consistent with the standard Boltzmann distribution. I believe this independent derivation, while non-standard, captures the underlying physics of the zipper model from a unique statistical angle.</p>
+    <hr>
 </div>
-<!-- Adds some scroll space to the bottom of the doucment -->
-<div style="height: 1pc">&nbsp;</div>
-<!-- Scripts to handle MathJax -->
-<script async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script async="" src="http://markdownedit.com/assets/js/mathjax-scripts.js"></script>
+
+<div style="height: 2pc">&nbsp;</div>
+
+<!-- MathJax for LaTeX Rendering -->
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 </body>
 </html>
