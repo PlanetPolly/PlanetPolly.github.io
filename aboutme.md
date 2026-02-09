@@ -11,7 +11,7 @@ I major in electrochemistry. My core interest is in deconstructing the physical 
 > To wonder is to dare.<br>
 > Believe That Mountain World Exists.
 
-![](\img\beads2.jpg)
+New Post: [Revisit a problem](https://planetpolly.github.io/2026-02-09-a-problem/)
 
 
 
