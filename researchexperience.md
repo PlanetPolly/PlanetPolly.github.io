@@ -4,15 +4,13 @@ title: Research
 subtitle: A brief summary of my footsteps
 ---
 
-## My Research
-
 *I have conducted research in various fields including lithium-ion batteries, lead-acid batteries, biosensors, organic synthesis, and interface science. This variety of research experiences has given me a good intuition about combining knowledge from different subfields. This intuition helps me keep an open mind when I encounter complex physical and chemical problems.*
 
 ---
 
 ## Project Experience
 
-### **Work Experience (Tianneng Battery)**
+### **Work 1 (Tianneng Battery)**
 *July 2024 - Present*
 *Failure Analysis Engineer / Advanced Electrochemical Engineer*
 
