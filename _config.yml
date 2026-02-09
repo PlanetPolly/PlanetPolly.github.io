@@ -19,13 +19,13 @@ title: Marginalia on Life
 # Short description of your site
 description:Decoding the Signal, Tracing the Footsteps.
 
-# --- Navigation bar options --- 
+# --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
   About: "aboutme"
   Research: "researchexperience"
-  Apparatus: "tools"
+  Tools: "tools"
   Epilogue: "lastletter"
 
 
