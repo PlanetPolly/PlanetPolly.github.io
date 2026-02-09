@@ -3,8 +3,77 @@
 <head>
     <title>Revisit a problem</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style type="text/css">
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        #content {
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-radius: 8px;
+        }
+        h3 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        h4 {
+            color: #d35400; /* Distinct color for the reflection section */
+            margin-top: 30px;
+        }
+        .problem-box {
+            background-color: #e8f4f8;
+            border-left: 5px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .math-block {
+            overflow-x: auto;
+            margin: 15px 0;
+            text-align: center;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        .correction-box {
+            background-color: #fff0f0;
+            border-left: 5px solid #c0392b;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #eee;
+            margin: 30px 0;
+        }
     </style>
+    
+    <!-- Configure MathJax to recognize single $ for inline math -->
+    <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+    </script>
 </head>
 <body>
 
@@ -84,8 +153,28 @@
     </p>
 
     <hr>
-    <p><strong>Conclusion:</strong> Although my approach was unconventional, I found that the result is consistent with the standard Boltzmann distribution. </p>
-    <hr>
+    
+    <!-- NEW SECTION ADDED HERE -->
+    <div class="correction-box">
+        <h4>Post-Exam Reflection & Correction</h4>
+        <p>Upon reviewing the derivation with rigorous statistical mechanics, I realized there are two subtle but important nuances that bridge my intuitive model with the exact solution:</p>
+        
+        <p><strong>1. Mathematical Correction on Summation</strong><br>
+        In the calculation of $\langle n \rangle$, there was a minor algebraic error. The summation of the geometric-like series should be:
+        $$\sum_{n=0}^{\infty} n P_1^n = \frac{P_1}{(1-P_1)^2}$$
+        Substituting this into the mean value formula:
+        $$\langle n \rangle = (1-P_1) \sum n P_1^n = (1-P_1) \frac{P_1}{(1-P_1)^2} = \frac{P_1}{1-P_1}$$
+        My original derivation missed the $P_1$ factor in the numerator (yielding $1/(1-P_1)$), which would incorrectly suggest $\langle n \rangle \to 1$ even at absolute zero temperature.</p>
+
+        <p><strong>2. Physical Definition of Probability</strong><br>
+        My model defined $P_1 = \frac{e^{-\beta \epsilon}}{1+e^{-\beta \epsilon}}$, which effectively normalizes each link as an independent system. However, in the exact Zipper model, the statistical weight is simply the Boltzmann factor $x = e^{-\beta \epsilon}$. </p>
+        
+        <p>If we use the corrected mean formula $\langle n \rangle = \frac{P_1}{1-P_1}$ but substitute the exact weight $P_1 \to x = e^{-\beta \epsilon}$, we get:
+        $$\langle n \rangle = \frac{e^{-\beta \epsilon}}{1-e^{-\beta \epsilon}} = \frac{1}{e^{\beta \epsilon}-1}$$
+        This perfectly reproduces the standard textbook result without any approximation approximations. This confirms that the "independent trial" intuition is valid if the probability weight is defined strictly via the partition function.</p>
+    </div>
+    <!-- END NEW SECTION -->
+
 </div>
 
 <div style="height: 2pc">&nbsp;</div>
