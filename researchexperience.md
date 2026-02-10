@@ -15,10 +15,11 @@ My scientific journey has been driven by a fascination with **interfaces**—whe
 
 **The Challenge:** How do we translate microscopic degradation mechanisms into macroscopic safety and performance descriptors?
 
-*   **Deconvoluting Impedance (DRT):** Standard EIS often blurs distinct electrochemical processes. I developed an automated **Distribution of Relaxation Times (DRT)** pipeline in Python. This allowed us to mathematically separate the solid electrolyte interphase (SEI) contribution from charge transfer and diffusion kinetics, providing a clearer picture of large cell aging.
-*   **Physics-Informed Data Science:** Applied **Random Forest** algorithms to bridge the gap between raw material properties and cell-level performance, moving beyond trial-and-error to predictive engineering.
-*   **Thermal Safety Mechanics:** Optimized **ARC (Accelerating Rate Calorimetry)** configurations to analyze heating rate models. The goal is not just to observe thermal runaway, but to identify the specific onset of exothermic reactions for safety diagnosis (Patent pending).
-*   **Microstructure Quantifiction:** Established rigorous protocols for measuring **electrode tortuosity** and **SEM porosity**, linking geometric factors to transport limitations.
+*  **DRT**: Standard EIS often blurs distinct electrochemical processes. I developed an automated **Distribution of Relaxation Times (DRT)** pipeline in Python. It's able to separate the solid electrolyte interphase (SEI) contribution from charge transfer and diffusion kinetics, providing a clearer picture of **large cell** aging.
+*   **Data-driven:** Applied **Random Forest** algorithms to bridge the gap between raw material properties and cell-level performance, moving beyond trial-and-error to predictive engineering.
+*   **Thermal analysis:** Optimized **ARC (Accelerating Rate Calorimetry)** configurations to analyze heating rate models for safety diagnosis (Patent pending).
+*   **Microstructure:** Established rigorous protocols for measuring electrode tortuosity by symmetrical cell and porosity by SEM.
+* ...
 
 ---
 
@@ -32,7 +33,7 @@ My scientific journey has been driven by a fascination with **interfaces**—whe
 ![](/img/3.png)
 *<center><small>Using ATR-SEIRAS to see the interface.</small></center>*
 
-*   **Spectroscopic Evidence:** Utilized **ATR-SEIRAS** (Surface-Enhanced Infrared Absorption Spectroscopy) to directly observe the interfacial water structure during the Hydrogen Evolution Reaction (HER).
+*   **Spectro-electrochemistry:** Utilized **ATR-SEIRAS** (Surface-Enhanced Infrared Absorption Spectroscopy) to directly observe the interfacial water structure during the Hydrogen Evolution Reaction (HER).
 *   **Kinetic Decoupling:** Conducted precise measurements using **ultra-microelectrodes (UMEs)** in DMSO-water cosolvents.
 *   **Key Insight:** Discovered that H-bond competitors significantly disrupt the interfacial water structure. This disruption affects the proton donor capability, proving that HER kinetics are governed by local solvation structures, not just bulk properties.
 
@@ -45,7 +46,7 @@ My scientific journey has been driven by a fascination with **interfaces**—whe
 
 *   **The Mismatch:** Investigated the anomaly where the reductive desorption onset potential of Mixed Self-assembled Monolayers (SAMs) did not correlate linearly with surface coverage.
 *   **Surface Quantification:** Synthesized a **Cl-terminated thiol** tag and utilized **XPS** to quantify the precise elemental composition before and after desorption.
-*   **Mechanism Revealed:** Found that the discrepancy was driven by **phase separation** within the monolayer. The choice of solvent (Ethanol vs. Chloroform vs. DCM) during assembly fundamentally altered the domain formation, thereby changing the electrochemical stability.
+*   **Key Insight:** Found that the discrepancy was driven by **phase separation** within the monolayer. The choice of solvent (Ethanol vs. Chloroform vs. DCM) during assembly fundamentally altered the domain formation, thereby changing the electrochemical stability.
 
 ---
 
@@ -59,7 +60,7 @@ My scientific journey has been driven by a fascination with **interfaces**—whe
 <img src="https://cdn.britannica.com/30/158530-050-3BB8C4C8/radii-coordination-number-metals-atomic.jpg?raw=true" width="500px">
 
 *   **Lattice Engineering:** Fabricated Pyrochlore-type Iridium catalysts. By doping with lanthanides of varying atomic radii, we induced specific lattice strains.
-*   **Structure-Property Relationship:** Proposed a correlation between the **atomic number** (ionic radius) of the dopant and the oxygen evolution reaction (OER) stability/activity in acidic media.
+*   **Key result:** Proposed a correlation between the **atomic number** (ionic radius) of the dopant and the oxygen evolution reaction (OER) stability/activity in acidic media.
 
 ### **Shanghai Jiao Tong University**
 *Nov. 2016 — July 2018 | Undergraduate Researcher (Mentored by Prof. Jianbo Wu)*
