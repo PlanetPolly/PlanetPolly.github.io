@@ -99,6 +99,24 @@
     </div>
     </p>
 
+<div>
+<strong>Standard Distribution Approach:</strong><br>
+The system can be viewed as a set of discrete states where the state $n$ (having $n$ open links) has energy $E_n = n\epsilon$. According to the Boltzmann distribution, the probability of being in state $n$ is:
+<p>
+$$P_n = \frac{e^{-\beta n \epsilon}}{Z}$$
+</p>
+For an infinite chain ($N \to \infty$), the partition function $Z$ is a geometric series:
+<p>
+$$Z = \sum_{n=0}^{\infty} (e^{-\beta \epsilon})^n = \frac{1}{1 - e^{-\beta \epsilon}}$$
+</p>
+The mean number of open links $\langle n \rangle$ is then simply the expected value of this geometric distribution:
+<p>
+$$\langle n \rangle = \frac{\sum n e^{-\beta n \epsilon}}{\sum e^{-\beta n \epsilon}} = \frac{e^{-\beta \epsilon}}{1 - e^{-\beta \epsilon}} = \frac{1}{e^{\beta \epsilon} - 1}$$
+</p>
+</div>
+
+
+<strong>Another Approach:</strong><br>
     <p>Since the probability $P_1$ is small in the high-energy limit ($\epsilon \gg kT$), we have:
     $$P_1 \approx e^{-\beta \epsilon}$$
     The condition that "at least one link is open" is equivalent to the first link being open. Thus, the answer for question (a) is $P_1$, <span class="highlight">which matches the solution provided in class.</span></p>
